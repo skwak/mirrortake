@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>MIRRORTAKE</title>
-   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
 
-  <div id="container">
-
-    <div id="top"></div>
+  <div class="container">
+    <div class="top-nav">
+      <div id="top-logo"></div>
+      <div class="header">
+        <h1 class="name">MIRRORTAKE</h1>
+      </div>
+    </div>
 
     <form>
       <button id="addButton">Upload Photo</button>
@@ -21,7 +26,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="assets/js/logo.js"></script>
-  
+
 </body>
 
 </html>

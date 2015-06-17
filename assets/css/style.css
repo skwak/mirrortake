@@ -1,0 +1,31 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  background-color: #000;
+  font-family: "Helvetica Neue";
+  color: #fff;
+}
+
+.container {
+}
+
+.top-nav {
+  height: 75px;
+}
+
+#top-logo {
+  float: left;
+}
+
+.header {
+  margin-left: 10em;
+}
+
+.name {
+  font-size: 75px;
+}
