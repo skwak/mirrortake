@@ -1,3 +1,7 @@
+/** {
+  border: 1px solid pink;
+}*/
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -14,12 +18,19 @@ body {
 .container {
 }
 
+
+/* top area */
+
 .top-nav {
-  height: 75px;
+
 }
 
 #top-logo {
   float: left;
+}
+
+svg#top-logo {
+  display: block;
 }
 
 .header {
@@ -27,5 +38,12 @@ body {
 }
 
 .name {
+  vertical-align: top;
   font-size: 75px;
+}
+
+/* upload photo area */
+
+.upload-area {
+  margin: 2em;
 }
