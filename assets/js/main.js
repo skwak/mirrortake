@@ -1,3 +1,3 @@
-$("#foto").click(function() {
-  alert("hey");
-});
+(function() {
+  var $photo = $("#foto");
+})();

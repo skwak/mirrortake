@@ -44,6 +44,11 @@ svg#top-logo {
 
 /* upload photo area */
 
+#photo-area {
+  background-image: url("../imgs/mirror-example.png");
+  height: 800px;
+}
+
 .upload-area {
   margin: 2em;
 }
