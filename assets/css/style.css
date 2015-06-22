@@ -38,11 +38,18 @@ svg#top-logo {
   font-size: 75px;
 }
 
+/* smaller photo */
+
+#foto {
+  width: 200px;
+  margin: 0 auto;
+}
+
 /* upload photo area */
 
 #photo-area {
   background-image: url("../imgs/mirror-example.png");
-  height: 800px;
+  height: 100%;
 }
 
 .upload-area {
