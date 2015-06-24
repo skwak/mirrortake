@@ -12,6 +12,7 @@
   });
 
   function photoGrow() {
+    console.log($photo.width());
     if ($photo.width() < $htmlDocWidth ) {
       $photo.animate({
         height: "+=80px",

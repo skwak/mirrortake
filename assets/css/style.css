@@ -42,9 +42,13 @@ svg#top-logo {
 
 #foto {
   width: 200px;
-  margin: 0 auto;
 }
 
+.smaller-photo {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+}
 /* upload photo area */
 
 #photo-area {
