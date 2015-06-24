@@ -2,20 +2,24 @@
 
   var $photo = $("#foto");
 
-  var $browserViewportHeight = $(window).height();
-  var $browserViewportWidth = $(window).width();
-  console.log("browser viewport width x height: " + $browserViewportWidth + " x " + $browserViewportHeight);
-  var $htmlDocHeight = $(document).height();
-  var $htmlDocWidth = $(document).width();
-  console.log("HTML doc width x height: " + $htmlDocWidth + " x " + $browserViewportWidth);
+  var $browserViewportHeight = $(window).height(),
+      $browserViewportWidth = $(window).width(),
+      $htmlDocHeight = $(document).height(),
+      $htmlDocWidth = $(document).width();
 
-  $photo.load(function() {
-    while ($(this).width() < $browserViewportWidth) {
-      
+  $(function(){
+    photoGrow();
+  });
+
+  function photoGrow() {
+    if ($photo.width() < $htmlDocWidth ) {
+      $photo.animate({
+        height: "+=80px",
+        width: "+=80px"
+      }, 1000, "linear", function() {
+        photoGrow();
+      });
     }
-
-      //  alert($(this).height());
-      //  alert($(this).width());
-   });
+  }
 
 })();
