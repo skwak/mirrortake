@@ -22,6 +22,8 @@
   function photoGrow() {
       $photo.animate({
         height: "+=80px",
+        marginLeft: "-=50px",
+        marginRight: "-=50px",
         width: "+=80px"
       }, 1000, "linear", function() {
         // note for later self:
